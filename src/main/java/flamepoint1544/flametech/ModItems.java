@@ -7,9 +7,13 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    // Items
     public static final Item TEST_ITEM = register(new Item(new Item.Settings()), "test_item");
 
+    // Registry keys
     public static final RegistryKey<ItemGroup> PRIMARY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(FlameTech.MOD_ID, "primary_item_group"));
+
+    // Item Groups
     public static final ItemGroup PRIMARY_ITEM_GROUP = FabricItemGroup.builder()
     .icon(() -> new ItemStack(TEST_ITEM))
     .displayName(Text.translatable("itemGroup.primary_item_group")).build();
