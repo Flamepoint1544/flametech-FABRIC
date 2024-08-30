@@ -3,15 +3,14 @@
 	"id": "flametech",
 	"version": "${version}",
 	"name": "FlameTech",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A tech mod",
 	"authors": [
-		"Me!"
+		"Flamepoint1544"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Flamepoint1544/flametech-1.20.1-FABRIC/tree/main"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0",
 	"icon": "assets/flametech/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -37,8 +36,5 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
