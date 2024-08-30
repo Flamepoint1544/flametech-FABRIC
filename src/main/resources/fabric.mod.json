@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "flametech",
+	"version": "${version}",
+	"name": "FlameTech",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/flametech/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"flamepoint1544.flametech.FlameTech"
+		],
+		"client": [
+			"flamepoint1544.flametech.FlameTechClient"
+		],
+		"fabric-datagen": [
+			"flamepoint1544.flametech.FlameTechDataGenerator"
+		]
+	},
+	"mixins": [
+		"flametech.mixins.json",
+		{
+			"config": "flametech.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
