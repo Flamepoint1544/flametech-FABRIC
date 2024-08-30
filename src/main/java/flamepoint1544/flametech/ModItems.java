@@ -1,6 +1,6 @@
 package flamepoint1544.flametech;
 
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.itemgroup.v1.*;
 import net.minecraft.item.*;
 import net.minecraft.registry.*;
 import net.minecraft.text.Text;
@@ -30,6 +30,10 @@ public class ModItems {
     }
 
     public static void initialize(){
+        Registry.register(Registries.ITEM_GROUP, PRIMARY_GROUP_KEY, PRIMARY_ITEM_GROUP);
 
+        ItemGroupEvents.modifyEntriesEvent(PRIMARY_GROUP_KEY).register(itemGroup ->{
+            itemGroup.add(TEST_ITEM);
+        });
     }
 }
