@@ -1,11 +1,18 @@
 package flamepoint1544.flametech;
 
-import net.minecraft.item.Item;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.item.*;
 import net.minecraft.registry.*;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item TEST_ITEM = register(new Item(new Item.Settings()), "test_item");
+
+    public static final RegistryKey<ItemGroup> PRIMARY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(FlameTech.MOD_ID, "primary_item_group"));
+    public static final ItemGroup PRIMARY_ITEM_GROUP = FabricItemGroup.builder()
+    .icon(() -> new ItemStack(TEST_ITEM))
+    .displayName(Text.translatable("itemGroup.primary_item_group")).build();
 
     public static Item register(Item item, String id){
         // Create Identifier
