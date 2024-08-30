@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "flametech:block/test_block" }
+    }
+}
