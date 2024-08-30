@@ -17,7 +17,7 @@ import net.minecraft.util.Identifier;
 public class FlameTechDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
-		FabricDataGenerator.Pack pack = generator.createPack();
+		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
  
         pack.addProvider(MyTagGenerator::new);
 	}
@@ -26,10 +26,14 @@ public class FlameTechDataGenerator implements DataGeneratorEntrypoint {
         public MyTagGenerator(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture) {
             super(output, completableFuture);
         }
+
+		private static final TagKey<Item> ITEMS_KEY = TagKey.of(RegistryKeys.ITEM, new Identifier(FlameTech.MOD_ID + "items"));
  
         @Override
         protected void configure(RegistryWrapper.WrapperLookup arg) {
- 
+			getOrCreateTagBuilder(ITEMS_KEY)
+			.add(Items.SLIME_BALL)
+			.addOptionalTag(ItemTags.DIRT);
         }
     }
 }
