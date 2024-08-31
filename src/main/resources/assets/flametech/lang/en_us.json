@@ -1,5 +1,6 @@
 {
     "item.flametech.test_item": "Test Item",
     "block.flametech.test_block": "Test Block",
+    "block.flametech.burnt_stone": "Burnt Stone",
     "itemGroup.primary_item_group": "FlameTech"
 }
