@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "flametech:test_block",
         "flametech:burnt_stone"
     ]
 }
