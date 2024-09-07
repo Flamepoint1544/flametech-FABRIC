@@ -12,6 +12,7 @@ public class ModBlocks {
     // Blocks
     public static final Block TEST_BLOCK = register(new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.GRASS)), "test_block", true);
     public static final Block BURNT_STONE = register(new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).requiresTool()), "burnt_stone", true);
+    public static final Block LOG_PILE = register(new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOD)), "log_pile", true);
 
     public static Block register(Block block, String id, boolean registerItem){
         // Create Identifier
