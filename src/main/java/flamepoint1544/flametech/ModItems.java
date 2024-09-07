@@ -36,6 +36,7 @@ public class ModItems {
             itemGroup.add(TEST_ITEM);
             itemGroup.add(ModBlocks.TEST_BLOCK.asItem());
             itemGroup.add(ModBlocks.BURNT_STONE.asItem());
+            itemGroup.add(ModBlocks.LOG_PILE.asItem());
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(itemGroup ->{
