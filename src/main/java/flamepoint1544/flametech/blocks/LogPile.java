@@ -11,12 +11,18 @@ import net.minecraft.world.BlockView;
 
 public class LogPile extends Block{
 
+    @SuppressWarnings("deprecation")
     public LogPile(Settings settings) {
-        super(settings.sounds(BlockSoundGroup.WOOD));
+        super(settings.sounds(BlockSoundGroup.WOOD).notSolid());
     }
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return VoxelShapes.cuboid(0, 0, 0, 1, 0.8f, 1);
+        return VoxelShapes.cuboid(0.0, 0.0, 0.0, 1.0, 0.45, 1.0);
+    }
+
+    @Override
+    public VoxelShape getCollisionShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
+        return VoxelShapes.cuboid(0.0, 0.0, 0.0, 1.0, 0.45, 1.0);
     }
 }
