@@ -13,7 +13,7 @@ public class LogPile extends Block{
 
     // @SuppressWarnings("deprecation")
     public LogPile(Settings settings) {
-        super(settings.sounds(BlockSoundGroup.WOOD).nonOpaque());
+        super(settings.sounds(BlockSoundGroup.WOOD).nonOpaque().hardness(1));
     }
 
     @Override
