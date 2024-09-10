@@ -1,5 +1,6 @@
 package flamepoint1544.flametech;
 
+import flamepoint1544.flametech.items.FireStick;
 import net.fabricmc.fabric.api.itemgroup.v1.*;
 import net.minecraft.item.*;
 import net.minecraft.registry.*;
@@ -9,6 +10,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     // Items
     public static final Item TEST_ITEM = register(new Item(new Item.Settings()), "test_item");
+    public static final Item FIRE_STICK = register(new FireStick(new Item.Settings()), "fire_stick");
 
     // Registry keys
     public static final RegistryKey<ItemGroup> PRIMARY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(FlameTech.MOD_ID, "primary_item_group"));
@@ -33,10 +35,11 @@ public class ModItems {
         Registry.register(Registries.ITEM_GROUP, PRIMARY_GROUP_KEY, PRIMARY_ITEM_GROUP);
 
         ItemGroupEvents.modifyEntriesEvent(PRIMARY_GROUP_KEY).register(itemGroup ->{
-            itemGroup.add(TEST_ITEM);
-            itemGroup.add(ModBlocks.TEST_BLOCK.asItem());
+            itemGroup.add(FIRE_STICK);
             itemGroup.add(ModBlocks.BURNT_STONE.asItem());
             itemGroup.add(ModBlocks.LOG_PILE.asItem());
+            itemGroup.add(ModBlocks.TEST_BLOCK.asItem());
+            itemGroup.add(TEST_ITEM);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(itemGroup ->{
