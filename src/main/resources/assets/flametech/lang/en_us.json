@@ -1,5 +1,7 @@
 {
     "item.flametech.test_item": "Test Item",
+    "item.flametech.fire_stick": "Fire starter",
+
     "block.flametech.test_block": "Test Block",
     "block.flametech.burnt_stone": "Burnt Stone",
     "block.flametech.log_pile": "Log Pile",
