@@ -3,6 +3,7 @@ package flamepoint1544.flametech;
 import flamepoint1544.flametech.blocks.LogPile;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.*;
@@ -12,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     // Blocks
     public static final Block TEST_BLOCK = register(new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.GRASS)), "test_block", true);
-    public static final Block BURNT_STONE = register(new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).requiresTool()), "burnt_stone", true);
+    public static final Block BURNT_STONE = register(new Block(AbstractBlock.Settings.copy(Blocks.STONE)), "burnt_stone", true);
     public static final Block LOG_PILE = register(new LogPile(AbstractBlock.Settings.create()), "log_pile", true);
 
     public static Block register(Block block, String id, boolean registerItem){
