@@ -11,9 +11,9 @@ import net.minecraft.world.BlockView;
 
 public class LogPile extends Block{
 
-    @SuppressWarnings("deprecation")
+    // @SuppressWarnings("deprecation")
     public LogPile(Settings settings) {
-        super(settings.sounds(BlockSoundGroup.WOOD).notSolid());
+        super(settings.sounds(BlockSoundGroup.WOOD).nonOpaque());
     }
 
     @Override
