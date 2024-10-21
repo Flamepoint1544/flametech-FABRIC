@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#F#",
+        "FSF",
+        "#F#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone"
+        },
+        "F": {
+            "item": "flametech:burnt_stone"
+        },
+        "S": {
+            "item": "minecraft:flint"
+        }
+    },
+    "result": {
+        "item": "minecraft:furnace",
+        "count": 1
+    }
+}

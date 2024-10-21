@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "OO"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:oak_log"
+        },
+        "O": {
+            "item": "minecraft:oak_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:crafting_table",
+        "count": 1
+    }
+}
