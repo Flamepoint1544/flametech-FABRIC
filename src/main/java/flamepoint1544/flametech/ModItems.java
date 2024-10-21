@@ -1,6 +1,6 @@
 package flamepoint1544.flametech;
 
-import flamepoint1544.flametech.items.FireStick;
+import flamepoint1544.flametech.items.*;
 import net.fabricmc.fabric.api.itemgroup.v1.*;
 import net.minecraft.item.*;
 import net.minecraft.registry.*;
@@ -11,6 +11,7 @@ public class ModItems {
     // Items
     public static final Item TEST_ITEM = register(new Item(new Item.Settings()), "test_item");
     public static final Item FIRE_STICK = register(new FireStick(new Item.Settings()), "fire_stick");
+    public static final Item SCREWDRIVER_I = register(new Screwdriver(new Item.Settings(), 100), "screwdriver_iron");
 
     // Registry keys
     public static final RegistryKey<ItemGroup> PRIMARY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(FlameTech.MOD_ID, "primary_item_group"));
