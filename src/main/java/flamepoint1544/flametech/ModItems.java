@@ -11,7 +11,7 @@ public class ModItems {
     // Items
     public static final Item TEST_ITEM = register(new Item(new Item.Settings()), "test_item");
     public static final Item FIRE_STICK = register(new FireStick(new Item.Settings()), "fire_stick");
-    public static final Item SCREWDRIVER_S = register(new Screwdriver(new Item.Settings(), 20), "screwdriver_stone");
+    public static final Item SCREWDRIVER_F = register(new Screwdriver(new Item.Settings(), 20), "screwdriver_flint");
     public static final Item SCREWDRIVER_I = register(new Screwdriver(new Item.Settings(), 50), "screwdriver_iron");
 
     // Registry keys
