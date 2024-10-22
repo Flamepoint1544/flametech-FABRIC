@@ -6,5 +6,7 @@
     "block.flametech.burnt_stone": "Burnt Stone",
     "block.flametech.log_pile": "Log Pile",
 
-    "itemGroup.primary_item_group": "FlameTech"
+    "itemGroup.flametech.primary_item_group": "FlameTech",
+
+    "item.flametech.screwdriver_flint": "Flint Screwdriver"
 }
