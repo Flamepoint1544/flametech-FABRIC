@@ -12,7 +12,7 @@ public class Screwdriver extends Item{
     @Override
     public ItemStack getRecipeRemainder(ItemStack stack) {
         ItemStack defStack = this.getDefaultStack();
-        defStack.setDamage(stack.getDamage() - 1);
+        defStack.setDamage(stack.getDamage() + 1);
         return defStack;
     }
 }
