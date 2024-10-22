@@ -37,12 +37,12 @@ public class ModItems {
     public static final Item FILE_U = register(new File(new Item.Settings(), 200), "file_ultimatium");
 
     // Wrenches
-    public static final Item WRENCH_F = register(new File(new Item.Settings(), 25), "wrench_flint");
-    public static final Item WRENCH_I = register(new File(new Item.Settings(), 50), "wrench_iron");
-    public static final Item WRENCH_G = register(new File(new Item.Settings(), 25), "wrench_gold");
-    public static final Item WRENCH_D = register(new File(new Item.Settings(), 75), "wrench_diamond");
-    public static final Item WRENCH_N = register(new File(new Item.Settings(), 100), "wrench_netherite");
-    public static final Item WRENCH_U = register(new File(new Item.Settings(), 200), "wrench_ultimatium");
+    public static final Item WRENCH_F = register(new Wrench(new Item.Settings(), 25), "wrench_flint");
+    public static final Item WRENCH_I = register(new Wrench(new Item.Settings(), 50), "wrench_iron");
+    public static final Item WRENCH_G = register(new Wrench(new Item.Settings(), 25), "wrench_gold");
+    public static final Item WRENCH_D = register(new Wrench(new Item.Settings(), 75), "wrench_diamond");
+    public static final Item WRENCH_N = register(new Wrench(new Item.Settings(), 100), "wrench_netherite");
+    public static final Item WRENCH_U = register(new Wrench(new Item.Settings(), 200), "wrench_ultimatium");
 
     // Registry keys
     public static final RegistryKey<ItemGroup> PRIMARY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(FlameTech.MOD_ID, "primary_item_group"));
