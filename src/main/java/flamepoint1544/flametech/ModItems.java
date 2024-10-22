@@ -11,24 +11,32 @@ public class ModItems {
     // Items
     public static final Item TEST_ITEM = register(new Item(new Item.Settings()), "test_item");
     public static final Item FIRE_STICK = register(new FireStick(new Item.Settings()), "fire_stick");
+    
+    // Screwdrivers
     public static final Item SCREWDRIVER_F = register(new Screwdriver(new Item.Settings(), 25), "screwdriver_flint");
     public static final Item SCREWDRIVER_I = register(new Screwdriver(new Item.Settings(), 50), "screwdriver_iron");
     public static final Item SCREWDRIVER_G = register(new Screwdriver(new Item.Settings(), 25), "screwdriver_gold");
     public static final Item SCREWDRIVER_D = register(new Screwdriver(new Item.Settings(), 75), "screwdriver_diamond");
     public static final Item SCREWDRIVER_N = register(new Screwdriver(new Item.Settings(), 100), "screwdriver_netherite");
     public static final Item SCREWDRIVER_U = register(new Screwdriver(new Item.Settings(), 200), "screwdriver_ultimatium");
+
+    // Saws
     public static final Item SAW_F = register(new Saw(new Item.Settings(), 25), "saw_flint");
     public static final Item SAW_I = register(new Saw(new Item.Settings(), 50), "saw_iron");
     public static final Item SAW_G = register(new Saw(new Item.Settings(), 25), "saw_gold");
     public static final Item SAW_D = register(new Saw(new Item.Settings(), 75), "saw_diamond");
     public static final Item SAW_N = register(new Saw(new Item.Settings(), 100), "saw_netherite");
     public static final Item SAW_U = register(new Saw(new Item.Settings(), 200), "saw_ultimatium");
+
+    // Files
     public static final Item FILE_F = register(new File(new Item.Settings(), 25), "file_flint");
     public static final Item FILE_I = register(new File(new Item.Settings(), 50), "file_iron");
     public static final Item FILE_G = register(new File(new Item.Settings(), 25), "file_gold");
     public static final Item FILE_D = register(new File(new Item.Settings(), 75), "file_diamond");
     public static final Item FILE_N = register(new File(new Item.Settings(), 100), "file_netherite");
     public static final Item FILE_U = register(new File(new Item.Settings(), 200), "file_ultimatium");
+
+    // Wrenches
     public static final Item WRENCH_F = register(new File(new Item.Settings(), 25), "wrench_flint");
     public static final Item WRENCH_I = register(new File(new Item.Settings(), 50), "wrench_iron");
     public static final Item WRENCH_G = register(new File(new Item.Settings(), 25), "wrench_gold");
