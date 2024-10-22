@@ -8,5 +8,10 @@
 
     "itemGroup.flametech.primary_item_group": "FlameTech",
 
-    "item.flametech.screwdriver_flint": "Flint Screwdriver"
+    "item.flametech.screwdriver_flint": "Flint Screwdriver",
+    "item.flametech.screwdriver_gold": "Gold Screwdriver",
+    "item.flametech.screwdriver_iron": "Iron Screwdriver",
+    "item.flametech.screwdriver_diamond": "Diamond Screwdriver",
+    "item.flametech.screwdriver_netherite": "Netherite Screwdriver",
+    "item.flametech.screwdriver_ultimatium": "Ultimatium Screwdriver"
 }
