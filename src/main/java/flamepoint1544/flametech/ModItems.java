@@ -21,12 +21,12 @@ public class ModItems {
     public static final Item SCREWDRIVER_U = register(new Screwdriver(new Item.Settings(), 200), "screwdriver_ultimatium");
 
     // Saws
-    public static final Item SAW_F = register(new Saw(ToolMaterials.WOOD, 1, 1, new Item.Settings(), 25), "saw_flint");
-    public static final Item SAW_I = register(new Saw(ToolMaterials.WOOD, 1, 1, new Item.Settings(), 50), "saw_iron");
-    public static final Item SAW_G = register(new Saw(ToolMaterials.WOOD, 1, 1, new Item.Settings(), 25), "saw_gold");
-    public static final Item SAW_D = register(new Saw(ToolMaterials.WOOD, 1, 1, new Item.Settings(), 75), "saw_diamond");
-    public static final Item SAW_N = register(new Saw(ToolMaterials.WOOD, 1, 1, new Item.Settings(), 100), "saw_netherite");
-    public static final Item SAW_U = register(new Saw(ToolMaterials.WOOD, 1, 1, new Item.Settings(), 200), "saw_ultimatium");
+    public static final Item SAW_F = register(new Saw(ToolMaterials.WOOD, 3.0f, -3.2f, new Item.Settings(), 25), "saw_flint");
+    public static final Item SAW_I = register(new Saw(ToolMaterials.WOOD, 3.0f, -3.2f, new Item.Settings(), 50), "saw_iron");
+    public static final Item SAW_G = register(new Saw(ToolMaterials.WOOD, 3.0f, -3.2f, new Item.Settings(), 25), "saw_gold");
+    public static final Item SAW_D = register(new Saw(ToolMaterials.WOOD, 3.0f, 3.2f, new Item.Settings(), 75), "saw_diamond");
+    public static final Item SAW_N = register(new Saw(ToolMaterials.WOOD, 3.0f, 3.2f, new Item.Settings(), 100), "saw_netherite");
+    public static final Item SAW_U = register(new Saw(ToolMaterials.WOOD, 3.0f, 3.2f, new Item.Settings(), 200), "saw_ultimatium");
 
     // Files
     public static final Item FILE_F = register(new File(new Item.Settings(), 25), "file_flint");
