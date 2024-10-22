@@ -13,5 +13,26 @@
     "item.flametech.screwdriver_iron": "Iron Screwdriver",
     "item.flametech.screwdriver_diamond": "Diamond Screwdriver",
     "item.flametech.screwdriver_netherite": "Netherite Screwdriver",
-    "item.flametech.screwdriver_ultimatium": "Ultimatium Screwdriver"
+    "item.flametech.screwdriver_ultimatium": "Ultimatium Screwdriver",
+
+    "item.flametech.saw_flint": "Flint Saw",
+    "item.flametech.saw_gold": "Gold Saw",
+    "item.flametech.saw_iron": "Iron Saw",
+    "item.flametech.saw_diamond": "Diamond Saw",
+    "item.flametech.saw_netherite": "Netherite Saw",
+    "item.flametech.saw_ultimatium": "Ultimatium Saw",
+    
+    "item.flametech.file_flint": "Flint File",
+    "item.flametech.file_gold": "Gold File",
+    "item.flametech.file_iron": "Iron File",
+    "item.flametech.file_diamond": "Diamond File",
+    "item.flametech.file_netherite": "Netherite File",
+    "item.flametech.file_ultimatium": "Ultimatium File",
+
+    "item.flametech.wrench_flint": "Flint Wrench",
+    "item.flametech.wrench_gold": "Gold Wrench",
+    "item.flametech.wrench_iron": "Iron Wrench",
+    "item.flametech.wrench_diamond": "Diamond Wrench",
+    "item.flametech.wrench_netherite": "Netherite Wrench",
+    "item.flametech.wrench_ultimatium": "Ultimatium Wrench"
 }
