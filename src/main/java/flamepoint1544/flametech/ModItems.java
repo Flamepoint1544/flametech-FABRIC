@@ -44,6 +44,12 @@ public class ModItems {
             itemGroup.add(FIRE_STICK);
             itemGroup.add(ModBlocks.BURNT_STONE.asItem());
             itemGroup.add(ModBlocks.LOG_PILE.asItem());
+            itemGroup.add(SCREWDRIVER_F);
+            itemGroup.add(SCREWDRIVER_G);
+            itemGroup.add(SCREWDRIVER_I);
+            itemGroup.add(SCREWDRIVER_D);
+            itemGroup.add(SCREWDRIVER_N);
+            itemGroup.add(SCREWDRIVER_U);
             itemGroup.add(ModBlocks.TEST_BLOCK.asItem());
             itemGroup.add(TEST_ITEM);
         });
