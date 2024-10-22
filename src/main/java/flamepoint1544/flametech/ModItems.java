@@ -16,6 +16,7 @@ public class ModItems {
     public static final Item SCREWDRIVER_G = register(new Screwdriver(new Item.Settings(), 25), "screwdriver_gold");
     public static final Item SCREWDRIVER_D = register(new Screwdriver(new Item.Settings(), 75), "screwdriver_diamond");
     public static final Item SCREWDRIVER_N = register(new Screwdriver(new Item.Settings(), 100), "screwdriver_netherite");
+    public static final Item SCREWDRIVER_U = register(new Screwdriver(new Item.Settings(), 200), "screwdriver_ultimatium");
 
     // Registry keys
     public static final RegistryKey<ItemGroup> PRIMARY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(FlameTech.MOD_ID, "primary_item_group"));
