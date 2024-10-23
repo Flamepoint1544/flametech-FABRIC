@@ -22,10 +22,10 @@ public class ModItems {
 
     // Saws
     public static final Item SAW_F = register(new Saw(ToolMaterials.WOOD, 3.0f, -3.2f, new Item.Settings(), 25), "saw_flint");
-    public static final Item SAW_I = register(new Saw(ToolMaterials.WOOD, 3.0f, -3.2f, new Item.Settings(), 50), "saw_iron");
-    public static final Item SAW_G = register(new Saw(ToolMaterials.WOOD, 3.0f, -3.2f, new Item.Settings(), 25), "saw_gold");
-    public static final Item SAW_D = register(new Saw(ToolMaterials.WOOD, 3.0f, -3.2f, new Item.Settings(), 75), "saw_diamond");
-    public static final Item SAW_N = register(new Saw(ToolMaterials.WOOD, 3.0f, -3.2f, new Item.Settings(), 100), "saw_netherite");
+    public static final Item SAW_I = register(new Saw(ToolMaterials.IRON, 3.0f, -3.2f, new Item.Settings(), 50), "saw_iron");
+    public static final Item SAW_G = register(new Saw(ToolMaterials.GOLD, 3.0f, -3.2f, new Item.Settings(), 25), "saw_gold");
+    public static final Item SAW_D = register(new Saw(ToolMaterials.DIAMOND, 3.0f, -3.2f, new Item.Settings(), 75), "saw_diamond");
+    public static final Item SAW_N = register(new Saw(ToolMaterials.NETHERITE, 3.0f, -3.2f, new Item.Settings(), 100), "saw_netherite");
     public static final Item SAW_U = register(new Saw(ToolMaterials.WOOD, 3.0f, -3.2f, new Item.Settings(), 200), "saw_ultimatium");
 
     // Files
@@ -43,6 +43,9 @@ public class ModItems {
     public static final Item WRENCH_D = register(new Wrench(new Item.Settings(), 75), "wrench_diamond");
     public static final Item WRENCH_N = register(new Wrench(new Item.Settings(), 100), "wrench_netherite");
     public static final Item WRENCH_U = register(new Wrench(new Item.Settings(), 200), "wrench_ultimatium");
+
+    // Hammer
+    public static final Item HAMMER_F = register(new Hammer(new Item.Settings(), 25, ToolMaterials.WOOD, 1, 1), "hammer_flint");
 
     // Registry keys
     public static final RegistryKey<ItemGroup> PRIMARY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(FlameTech.MOD_ID, "primary_item_group"));
