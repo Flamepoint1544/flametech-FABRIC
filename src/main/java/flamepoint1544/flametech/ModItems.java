@@ -46,10 +46,10 @@ public class ModItems {
 
     // Hammer
     public static final Item HAMMER_F = register(new Hammer(new Item.Settings(), 25, ToolMaterials.WOOD, 1, 1), "hammer_flint");
-    public static final Item HAMMER_I = register(new Hammer(new Item.Settings(), 50, ToolMaterials.WOOD, 1, 1), "hammer_iron");
-    public static final Item HAMMER_G = register(new Hammer(new Item.Settings(), 25, ToolMaterials.WOOD, 1, 1), "hammer_gold");
-    public static final Item HAMMER_D = register(new Hammer(new Item.Settings(), 25, ToolMaterials.WOOD, 1, 1), "hammer_diamond");
-    public static final Item HAMMER_N = register(new Hammer(new Item.Settings(), 25, ToolMaterials.WOOD, 1, 1), "hammer_netherite");
+    public static final Item HAMMER_I = register(new Hammer(new Item.Settings(), 50, ToolMaterials.IRON, 1, 1), "hammer_iron");
+    public static final Item HAMMER_G = register(new Hammer(new Item.Settings(), 25, ToolMaterials.GOLD, 1, 1), "hammer_gold");
+    public static final Item HAMMER_D = register(new Hammer(new Item.Settings(), 25, ToolMaterials.DIAMOND, 1, 1), "hammer_diamond");
+    public static final Item HAMMER_N = register(new Hammer(new Item.Settings(), 25, ToolMaterials.NETHERITE, 1, 1), "hammer_netherite");
     public static final Item HAMMER_U = register(new Hammer(new Item.Settings(), 25, ToolMaterials.WOOD, 1, 1), "hammer_ultimatium");
 
     // Registry keys
