@@ -78,12 +78,44 @@ public class ModItems {
             itemGroup.add(FIRE_STICK);
             itemGroup.add(ModBlocks.BURNT_STONE.asItem());
             itemGroup.add(ModBlocks.LOG_PILE.asItem());
+
+            // Tools
             itemGroup.add(SCREWDRIVER_F);
+            itemGroup.add(SAW_F);
+            itemGroup.add(FILE_F);
+            itemGroup.add(WRENCH_F);
+            itemGroup.add(HAMMER_F);
+
             itemGroup.add(SCREWDRIVER_G);
+            itemGroup.add(SAW_G);
+            itemGroup.add(FILE_G);
+            itemGroup.add(WRENCH_G);
+            itemGroup.add(HAMMER_G);
+            
             itemGroup.add(SCREWDRIVER_I);
+            itemGroup.add(SAW_I);
+            itemGroup.add(FILE_I);
+            itemGroup.add(WRENCH_I);
+            itemGroup.add(HAMMER_I);
+
             itemGroup.add(SCREWDRIVER_D);
+            itemGroup.add(SAW_D);
+            itemGroup.add(FILE_D);
+            itemGroup.add(WRENCH_D);
+            itemGroup.add(HAMMER_D);
+
             itemGroup.add(SCREWDRIVER_N);
+            itemGroup.add(SAW_N);
+            itemGroup.add(FILE_N);
+            itemGroup.add(WRENCH_N);
+            itemGroup.add(HAMMER_N);
+            
             itemGroup.add(SCREWDRIVER_U);
+            itemGroup.add(SAW_U);
+            itemGroup.add(FILE_U);
+            itemGroup.add(WRENCH_U);
+            itemGroup.add(HAMMER_U);
+
             itemGroup.add(ModBlocks.TEST_BLOCK.asItem());
             itemGroup.add(TEST_ITEM);
         });
