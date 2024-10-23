@@ -46,6 +46,11 @@ public class ModItems {
 
     // Hammer
     public static final Item HAMMER_F = register(new Hammer(new Item.Settings(), 25, ToolMaterials.WOOD, 1, 1), "hammer_flint");
+    public static final Item HAMMER_I = register(new Hammer(new Item.Settings(), 50, ToolMaterials.WOOD, 1, 1), "hammer_iron");
+    public static final Item HAMMER_G = register(new Hammer(new Item.Settings(), 25, ToolMaterials.WOOD, 1, 1), "hammer_gold");
+    public static final Item HAMMER_D = register(new Hammer(new Item.Settings(), 25, ToolMaterials.WOOD, 1, 1), "hammer_diamond");
+    public static final Item HAMMER_N = register(new Hammer(new Item.Settings(), 25, ToolMaterials.WOOD, 1, 1), "hammer_netherite");
+    public static final Item HAMMER_U = register(new Hammer(new Item.Settings(), 25, ToolMaterials.WOOD, 1, 1), "hammer_ultimatium");
 
     // Registry keys
     public static final RegistryKey<ItemGroup> PRIMARY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(FlameTech.MOD_ID, "primary_item_group"));
