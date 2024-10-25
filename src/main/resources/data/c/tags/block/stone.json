@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "flametech:burnt_stone"
+        "flametech:burnt_stone",
+        "flametehc:crushed_burnt_stone"
     ]
 }

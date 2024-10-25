@@ -77,6 +77,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(PRIMARY_GROUP_KEY).register(itemGroup ->{
             itemGroup.add(FIRE_STICK);
             itemGroup.add(ModBlocks.BURNT_STONE.asItem());
+            itemGroup.add(ModBlocks.CRUSHED_BURNT_STONE);
             itemGroup.add(ModBlocks.LOG_PILE.asItem());
 
             // Tools
