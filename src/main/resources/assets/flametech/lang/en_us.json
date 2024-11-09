@@ -34,5 +34,12 @@
     "item.flametech.wrench_iron": "Iron Wrench",
     "item.flametech.wrench_diamond": "Diamond Wrench",
     "item.flametech.wrench_netherite": "Netherite Wrench",
-    "item.flametech.wrench_ultimatium": "Ultimatium Wrench"
+    "item.flametech.wrench_ultimatium": "Ultimatium Wrench",
+
+    "item.flametech.hammer_flint": "Flint Hammer",
+    "item.flametech.hammer_gold": "Gold Hammer",
+    "item.flametech.hammer_iron": "Iron Hammer",
+    "item.flametech.hammer_diamond": "Diamond Hammer",
+    "item.flametech.hammer_netherite": "Netherite Hammer",
+    "item.flametech.hammer_ultimatium": "Ultimatium Hammer"
 }
