@@ -6,10 +6,10 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:oak_log"
+            "tag": "minecraft:logs"
         },
         "O": {
-            "item": "minecraft:oak_planks"
+            "tag": "minecraft:planks"
         }
     },
     "result": {
