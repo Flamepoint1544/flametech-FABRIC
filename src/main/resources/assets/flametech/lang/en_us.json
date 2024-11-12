@@ -48,5 +48,12 @@
     "item.flametech.hammer_netherite": "Netherite Hammer",
     "item.flametech.hammer_ultimatium": "Ultimatium Hammer",
 
+    "item.flametech.copper_rod": "Copper Rod",
+    "item.flametech.gold_rod": "Gold Rod",
+    "item.flametech.iron_rod": "Iron Rod",
+    "item.flametech.diamond_rod": "Diamond Rod",
+    "item.flametech.netherite_rod": "Netherite Rod",
+    "item.flametech.ultimatium_rod": "Ultimatium Rod",
+
     "block.flametech.crushed_burnt_stone": "Crushed Burnt Stone"
 }
