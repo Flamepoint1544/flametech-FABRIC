@@ -1,9 +1,9 @@
 package flamepoint1544.flametech;
 
 import flamepoint1544.flametech.items.*;
+import flamepoint1544.beyond_bedrock.ToolMaterials;
 import net.fabricmc.fabric.api.itemgroup.v1.*;
 import net.minecraft.item.*;
-import net.minecraft.item.ToolMaterials;
 import net.minecraft.registry.*;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
@@ -22,12 +22,12 @@ public class ModItems {
     public static final Item SCREWDRIVER_U = register(new Screwdriver(new Item.Settings(), 200), "screwdriver_ultimatium");
 
     // Saws
-    public static final Item SAW_F = register(new Saw(ToolMaterials.WOOD, 3.0f, -3.2f, new Item.Settings(), 25), "saw_flint");
-    public static final Item SAW_I = register(new Saw(ToolMaterials.IRON, 3.0f, -3.2f, new Item.Settings(), 50), "saw_iron");
-    public static final Item SAW_G = register(new Saw(ToolMaterials.GOLD, 3.0f, -3.2f, new Item.Settings(), 25), "saw_gold");
-    public static final Item SAW_D = register(new Saw(ToolMaterials.DIAMOND, 3.0f, -3.2f, new Item.Settings(), 75), "saw_diamond");
-    public static final Item SAW_N = register(new Saw(ToolMaterials.NETHERITE, 3.0f, -3.2f, new Item.Settings(), 100), "saw_netherite");
-    public static final Item SAW_U = register(new Saw(flamepoint1544.beyond_bedrock.ToolMaterials.ULTIMATIUM, 3.0f, -3.2f, new Item.Settings(), 200), "saw_ultimatium");
+    public static final Item SAW_F = register(new Saw(net.minecraft.item.ToolMaterials.WOOD, 3.0f, -3.2f, new Item.Settings(), 25), "saw_flint");
+    public static final Item SAW_I = register(new Saw(net.minecraft.item.ToolMaterials.IRON, 3.0f, -3.2f, new Item.Settings(), 50), "saw_iron");
+    public static final Item SAW_G = register(new Saw(net.minecraft.item.ToolMaterials.GOLD, 3.0f, -3.2f, new Item.Settings(), 25), "saw_gold");
+    public static final Item SAW_D = register(new Saw(net.minecraft.item.ToolMaterials.DIAMOND, 3.0f, -3.2f, new Item.Settings(), 75), "saw_diamond");
+    public static final Item SAW_N = register(new Saw(net.minecraft.item.ToolMaterials.NETHERITE, 3.0f, -3.2f, new Item.Settings(), 100), "saw_netherite");
+    public static final Item SAW_U = register(new Saw(ToolMaterials.ULTIMATIUM, 3.0f, -3.2f, new Item.Settings(), 200), "saw_ultimatium");
 
     // Files
     public static final Item FILE_F = register(new File(new Item.Settings(), 25), "file_flint");
@@ -47,13 +47,13 @@ public class ModItems {
     public static final Item WRENCH_U = register(new Wrench(new Item.Settings(), 200), "wrench_ultimatium");
 
     // Hammer
-    public static final Item HAMMER_F = register(new Hammer(new Item.Settings(), 25, ToolMaterials.WOOD, 1, 1), "hammer_flint");
-    public static final Item HAMMER_C = register(new Hammer(new Item.Settings(), 25, flamepoint1544.beyond_bedrock.ToolMaterials.COPPER, 1, 1), "hammer_copper");
-    public static final Item HAMMER_I = register(new Hammer(new Item.Settings(), 50, ToolMaterials.IRON, 1, 1), "hammer_iron");
-    public static final Item HAMMER_G = register(new Hammer(new Item.Settings(), 25, ToolMaterials.GOLD, 1, 1), "hammer_gold");
-    public static final Item HAMMER_D = register(new Hammer(new Item.Settings(), 25, ToolMaterials.DIAMOND, 1, 1), "hammer_diamond");
-    public static final Item HAMMER_N = register(new Hammer(new Item.Settings(), 25, ToolMaterials.NETHERITE, 1, 1), "hammer_netherite");
-    public static final Item HAMMER_U = register(new Hammer(new Item.Settings(), 25, flamepoint1544.beyond_bedrock.ToolMaterials.ULTIMATIUM, 1, 1), "hammer_ultimatium");
+    public static final Item HAMMER_F = register(new Hammer(new Item.Settings(), 25, net.minecraft.item.ToolMaterials.WOOD, 1, 1), "hammer_flint");
+    public static final Item HAMMER_C = register(new Hammer(new Item.Settings(), 25, ToolMaterials.COPPER, 1, 1), "hammer_copper");
+    public static final Item HAMMER_I = register(new Hammer(new Item.Settings(), 50, net.minecraft.item.ToolMaterials.IRON, 1, 1), "hammer_iron");
+    public static final Item HAMMER_G = register(new Hammer(new Item.Settings(), 25, net.minecraft.item.ToolMaterials.GOLD, 1, 1), "hammer_gold");
+    public static final Item HAMMER_D = register(new Hammer(new Item.Settings(), 25, net.minecraft.item.ToolMaterials.DIAMOND, 1, 1), "hammer_diamond");
+    public static final Item HAMMER_N = register(new Hammer(new Item.Settings(), 25, net.minecraft.item.ToolMaterials.NETHERITE, 1, 1), "hammer_netherite");
+    public static final Item HAMMER_U = register(new Hammer(new Item.Settings(), 25, ToolMaterials.ULTIMATIUM, 1, 1), "hammer_ultimatium");
 
     // Registry keys
     public static final RegistryKey<ItemGroup> PRIMARY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(FlameTech.MOD_ID, "primary_item_group"));
