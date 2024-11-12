@@ -36,6 +36,6 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*",
-		"beyond_bedrock": "1.0.0"
+		"beyond_bedrock": "v1.3.0x1.20.1"
 	}
 }

@@ -9,6 +9,7 @@
     "itemGroup.flametech.primary_item_group": "FlameTech",
 
     "item.flametech.screwdriver_flint": "Flint Screwdriver",
+    "item.flametech.screwdriver_copper": "Copper Screwdriver",
     "item.flametech.screwdriver_gold": "Gold Screwdriver",
     "item.flametech.screwdriver_iron": "Iron Screwdriver",
     "item.flametech.screwdriver_diamond": "Diamond Screwdriver",
@@ -16,6 +17,7 @@
     "item.flametech.screwdriver_ultimatium": "Ultimatium Screwdriver",
 
     "item.flametech.saw_flint": "Flint Saw",
+    "item.flametech.saw_copper": "Copper Saw",
     "item.flametech.saw_gold": "Gold Saw",
     "item.flametech.saw_iron": "Iron Saw",
     "item.flametech.saw_diamond": "Diamond Saw",
@@ -23,6 +25,7 @@
     "item.flametech.saw_ultimatium": "Ultimatium Saw",
     
     "item.flametech.file_flint": "Flint File",
+    "item.flametech.file_copper": "Copper File",
     "item.flametech.file_gold": "Gold File",
     "item.flametech.file_iron": "Iron File",
     "item.flametech.file_diamond": "Diamond File",
@@ -31,6 +34,7 @@
 
     "item.flametech.wrench_flint": "Flint Wrench",
     "item.flametech.wrench_gold": "Gold Wrench",
+    "item.flametech.wrench_copper": "Copper Wrench",
     "item.flametech.wrench_iron": "Iron Wrench",
     "item.flametech.wrench_diamond": "Diamond Wrench",
     "item.flametech.wrench_netherite": "Netherite Wrench",
@@ -39,7 +43,10 @@
     "item.flametech.hammer_flint": "Flint Hammer",
     "item.flametech.hammer_gold": "Gold Hammer",
     "item.flametech.hammer_iron": "Iron Hammer",
+    "item.flametech.hammer_copper": "Copper Hammer",
     "item.flametech.hammer_diamond": "Diamond Hammer",
     "item.flametech.hammer_netherite": "Netherite Hammer",
-    "item.flametech.hammer_ultimatium": "Ultimatium Hammer"
+    "item.flametech.hammer_ultimatium": "Ultimatium Hammer",
+
+    "block.flametech.crushed_burnt_stone": "Crushed Burnt Stone"
 }
