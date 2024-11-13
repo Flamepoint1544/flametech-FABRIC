@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PHP",
+        "P#P",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "flametech:diamond_rod"
+        },
+        "P": {
+            "item": "flametech:diamond_plate"
+        },
+        "H": {
+            "tag": "c:hammer_2"
+        }
+    },
+    "result": {
+        "item": "flametech:wrench_diamond",
+        "count": 1
+    }
+}

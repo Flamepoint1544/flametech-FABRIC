@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "P",
+        "#",
+        "/"
+    ],
+    "key": {
+        "#": {
+            "item": "flametech:ultimatium_rod"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "item": "flametech:ultimatium_plate"
+        }
+    },
+    "result": {
+        "item": "flametech:screwdriver_ultimatium",
+        "count": 1
+    }
+}

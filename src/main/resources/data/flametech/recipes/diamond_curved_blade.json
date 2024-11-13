@@ -2,14 +2,14 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "flametech:gold_plate"
+            "item": "flametech:diamond_plate"
         },
         {
-            "tag": "c:file_1"
+            "tag": "c:file_2"
         }
     ],
     "result": {
-        "item": "flametech:gold_curved_blade",
+        "item": "flametech:diamond_curved_blade",
         "count": 1
     }
 }

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PHP",
+        "P#P",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "flametech:ultimatium_rod"
+        },
+        "P": {
+            "item": "flametech:ultimatium_plate"
+        },
+        "H": {
+            "tag": "c:hammer_1"
+        }
+    },
+    "result": {
+        "item": "flametech:wrench_ultimatium",
+        "count": 1
+    }
+}

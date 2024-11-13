@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "P/P",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "item": "flametech:diamond_plate"
+        }
+    },
+    "result": {
+        "item": "flametech:hammer_diamond",
+        "count": 1
+    }
+}

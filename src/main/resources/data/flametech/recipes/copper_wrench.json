@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PHP",
+        "P#P",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "flametech:copper_rod"
+        },
+        "P": {
+            "item": "flametech:copper_plate"
+        },
+        "H": {
+            "tag": "c:hammer_1"
+        }
+    },
+    "result": {
+        "item": "flametech:wrench_copper",
+        "count": 1
+    }
+}

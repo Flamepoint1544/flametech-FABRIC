@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PIP",
+        "F#H",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "item": "flametech:diamond_plate"
+        },
+        "H": {
+            "tag": "c:hammer_2"
+        },
+        "I": {
+            "item": "minecraft:diamond"
+        },
+        "F": {
+            "tag": "c:file_2"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond_pickaxe",
+        "count": 1
+    }
+}

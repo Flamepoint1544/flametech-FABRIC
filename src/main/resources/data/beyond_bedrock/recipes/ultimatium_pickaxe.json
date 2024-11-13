@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PIP",
+        "F#H",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "item": "flametech:ultimatium_plate"
+        },
+        "H": {
+            "tag": "c:hammer_4"
+        },
+        "I": {
+            "item": "beyond_bedrock:ultimatium"
+        },
+        "F": {
+            "tag": "c:file_4"
+        }
+    },
+    "result": {
+        "item": "beyond_bedrock:ultimatium_pickaxe",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "P",
+        "#",
+        "/"
+    ],
+    "key": {
+        "#": {
+            "item": "flametech:diamond_rod"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "item": "flametech:diamond_plate"
+        }
+    },
+    "result": {
+        "item": "flametech:screwdriver_diamond",
+        "count": 1
+    }
+}

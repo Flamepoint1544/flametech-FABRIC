@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "P/P",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "beyond_bedrock:ultimatium"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "item": "flametech:ultimatium_plate"
+        }
+    },
+    "result": {
+        "item": "flametech:hammer_ultimatium",
+        "count": 1
+    }
+}

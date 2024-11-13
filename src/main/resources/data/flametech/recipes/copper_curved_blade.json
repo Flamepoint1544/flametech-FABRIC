@@ -2,14 +2,14 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "flametech:gold_plate"
+            "item": "flametech:copper_plate"
         },
         {
             "tag": "c:file_1"
         }
     ],
     "result": {
-        "item": "flametech:gold_curved_blade",
+        "item": "flametech:copper_curved_blade",
         "count": 1
     }
 }
