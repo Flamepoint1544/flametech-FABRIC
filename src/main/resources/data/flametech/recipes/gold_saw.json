@@ -1,23 +1,19 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "P",
         "#",
         "/"
     ],
     "key": {
         "#": {
-            "item": "flametech:gold_rod"
+            "item": "flametech:gold_curved_blade"
         },
         "/": {
             "item": "minecraft:stick"
-        },
-        "P": {
-            "item": "flametech:gold_plate"
         }
     },
     "result": {
-        "item": "flametech:screwdriver_gold",
+        "item": "flametech:saw_gold",
         "count": 1
     }
 }

@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+      "flametech:file_netherite",
       "flametech:file_ultimatium"
     ]
   }

@@ -30,6 +30,7 @@ public class ModItems {
     public static final Item HAMMER_COPPER = register(new Hammer(new Item.Settings(), BBToolMaterials.COPPER, 1,  1, 25), "hammer_copper");
     public static final Item ROD_COPPER = register(new Item(new Item.Settings()), "copper_rod");
     public static final Item PLATE_COPPER = register(new Item(new Item.Settings()), "copper_plate");
+    public static final Item CURVED_BLADE_COPPER = register(new Item(new Item.Settings()), "copper_curved_blade");
 
     // Iron
     public static final Item SCREWDRIVER_IRON = register(new Screwdriver(new Item.Settings(), ToolMaterials.IRON, 50), "screwdriver_iron");
@@ -39,6 +40,7 @@ public class ModItems {
     public static final Item HAMMER_IRON = register(new Hammer(new Item.Settings(), ToolMaterials.IRON, 1, 1, 50), "hammer_iron");
     public static final Item ROD_IRON = register(new Item(new Item.Settings()), "iron_rod");
     public static final Item PLATE_IRON = register(new Item(new Item.Settings()), "iron_plate");
+    public static final Item CURVED_BLADE_IRON = register(new Item(new Item.Settings()), "iron_curved_blade");
 
     // Gold
     public static final Item SCREWDRIVER_GOLD = register(new Screwdriver(new Item.Settings(), ToolMaterials.GOLD, 25), "screwdriver_gold");
@@ -48,6 +50,7 @@ public class ModItems {
     public static final Item HAMMER_GOLD = register(new Hammer(new Item.Settings(),  ToolMaterials.GOLD, 1, 1, 25), "hammer_gold");
     public static final Item ROD_GOLD = register(new Item(new Item.Settings()), "gold_rod");
     public static final Item PLATE_GOLD = register(new Item(new Item.Settings()), "gold_plate");
+    public static final Item CURVED_BLADE_GOLD = register(new Item(new Item.Settings()), "gold_curved_blade");
 
     // Steel
 
@@ -59,6 +62,7 @@ public class ModItems {
     public static final Item HAMMER_DIAMOND = register(new Hammer(new Item.Settings(), ToolMaterials.DIAMOND, 1, 1, 75), "hammer_diamond");
     public static final Item ROD_DIAMOND = register(new Item(new Item.Settings()), "diamond_rod");
     public static final Item PLATE_DIAMOND = register(new Item(new Item.Settings()), "diamond_plate");
+    public static final Item CURVED_BLADE_DIAMOND = register(new Item(new Item.Settings()), "diamond_curved_blade");
 
     // Netherite
     public static final Item SCREWDRIVER_NETHERITE = register(new Screwdriver(new Item.Settings(), ToolMaterials.NETHERITE, 100), "screwdriver_netherite");
@@ -68,6 +72,7 @@ public class ModItems {
     public static final Item HAMMER_NETHERITE = register(new Hammer(new Item.Settings(), ToolMaterials.NETHERITE, 1, 1, 100), "hammer_netherite");
     public static final Item ROD_NETHERITE = register(new Item(new Item.Settings()), "netherite_rod");
     public static final Item PLATE_NETHERITE = register(new Item(new Item.Settings()), "netherite_plate");
+    public static final Item CURVED_BLADE_NETHERITE = register(new Item(new Item.Settings()), "netherite_curved_blade");
 
     // Ultimatium
     public static final Item SCREWDRIVER_ULTIMATIUM = register(new Screwdriver(new Item.Settings().rarity(Rarity.EPIC), BBToolMaterials.ULTIMATIUM, 200), "screwdriver_ultimatium");
@@ -77,6 +82,7 @@ public class ModItems {
     public static final Item HAMMER_ULTIMATIUM = register(new Hammer(new Item.Settings().rarity(Rarity.EPIC), BBToolMaterials.ULTIMATIUM, 1, 1, 200), "hammer_ultimatium");
     public static final Item ROD_ULTIMATIUM = register(new Item(new Item.Settings().rarity(Rarity.EPIC)), "ultimatium_rod");
     public static final Item PLATE_ULTIMATIUM = register(new Item(new Item.Settings().rarity(Rarity.EPIC)), "ultimatium_plate");
+    public static final Item CURVED_BLADE_ULTIMATIUM = register(new Item(new Item.Settings()), "ultimatium_curved_blade");
 
     // Registry keys
     public static final RegistryKey<ItemGroup> PRIMARY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(FlameTech.MOD_ID, "primary_item_group"));
@@ -120,6 +126,7 @@ public class ModItems {
             itemGroup.add(HAMMER_GOLD);
             itemGroup.add(ROD_GOLD);
             itemGroup.add(PLATE_GOLD);
+            itemGroup.add(CURVED_BLADE_GOLD);
 
             itemGroup.add(SCREWDRIVER_COPPER);
             itemGroup.add(SAW_COPPER);
@@ -128,6 +135,7 @@ public class ModItems {
             itemGroup.add(HAMMER_COPPER);
             itemGroup.add(ROD_COPPER);
             itemGroup.add(PLATE_COPPER);
+            itemGroup.add(CURVED_BLADE_COPPER);
             
             itemGroup.add(SCREWDRIVER_IRON);
             itemGroup.add(SAW_IRON);
@@ -136,6 +144,7 @@ public class ModItems {
             itemGroup.add(HAMMER_IRON);
             itemGroup.add(ROD_IRON);
             itemGroup.add(PLATE_IRON);
+            itemGroup.add(CURVED_BLADE_IRON);
 
             itemGroup.add(SCREWDRIVER_DIAMOND);
             itemGroup.add(SAW_DIAMOND);
@@ -144,6 +153,7 @@ public class ModItems {
             itemGroup.add(HAMMER_DIAMOND);
             itemGroup.add(ROD_DIAMOND);
             itemGroup.add(PLATE_DIAMOND);
+            itemGroup.add(CURVED_BLADE_DIAMOND);
 
             itemGroup.add(SCREWDRIVER_NETHERITE);
             itemGroup.add(SAW_NETHERITE);
@@ -152,6 +162,7 @@ public class ModItems {
             itemGroup.add(HAMMER_NETHERITE);
             itemGroup.add(ROD_NETHERITE);
             itemGroup.add(PLATE_NETHERITE);
+            itemGroup.add(CURVED_BLADE_NETHERITE);
             
             itemGroup.add(SCREWDRIVER_ULTIMATIUM);
             itemGroup.add(SAW_ULTIMATIUM);
@@ -160,6 +171,7 @@ public class ModItems {
             itemGroup.add(HAMMER_ULTIMATIUM);
             itemGroup.add(ROD_ULTIMATIUM);
             itemGroup.add(PLATE_ULTIMATIUM);
+            itemGroup.add(CURVED_BLADE_ULTIMATIUM);
 
             itemGroup.add(ModBlocks.TEST_BLOCK.asItem());
             itemGroup.add(TEST_ITEM);

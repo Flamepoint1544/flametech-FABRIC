@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:gold_ingot"
+        },
+        {
+            "tag": "c:file_1"
+        }
+    ],
+    "result": {
+        "item": "flametech:gold_curved_blade",
+        "count": 1
+    }
+}

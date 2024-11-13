@@ -62,5 +62,12 @@
     "item.flametech.netherite_plate": "Netherite Plate",
     "item.flametech.ultimatium_plate": "Ultimatium Plate",
 
+    "item.flametech.copper_curved_blade": "Copper Curved Blade",
+    "item.flametech.gold_curved_blade": "Gold Curved Blade",
+    "item.flametech.iron_curved_blade": "Iron Curved Blade",
+    "item.flametech.diamond_curved_blade": "Diamond Curved Blade",
+    "item.flametech.netherite_curved_blade": "Netherite Curved Blade",
+    "item.flametech.ultimatium_curved_blade": "Ultimatium Curved Blade",
+
     "block.flametech.crushed_burnt_stone": "Crushed Burnt Stone"
 }
