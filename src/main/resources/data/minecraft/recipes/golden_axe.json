@@ -1,9 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "PIP",
-        "F#H",
-        " # "
+        "PI ",
+        "P# ",
+        "H#F"
     ],
     "key": {
         "#": {
@@ -23,7 +23,7 @@
         }
     },
     "result": {
-        "item": "minecraft:golden_pickaxe",
+        "item": "minecraft:golden_axe",
         "count": 1
     }
 }

@@ -1,29 +1,29 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "PIP",
-        "F#H",
-        " # "
+        "PI ",
+        "P# ",
+        "H#F"
     ],
     "key": {
         "#": {
             "item": "minecraft:stick"
         },
         "P": {
-            "item": "flametech:gold_plate"
+            "item": "flametech:ultimatium_plate"
         },
         "H": {
-            "tag": "c:hammer_1"
+            "tag": "c:hammer_4"
         },
         "I": {
-            "item": "minecraft:gold_ingot"
+            "item": "beyond_bedrock:ultimatium"
         },
         "F": {
-            "tag": "c:file_1"
+            "tag": "c:file_4"
         }
     },
     "result": {
-        "item": "minecraft:golden_pickaxe",
+        "item": "beyond_bedrock:ultimatium_axe",
         "count": 1
     }
 }

@@ -1,29 +1,29 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "PIP",
-        "F#H",
-        " # "
+        "PI ",
+        "P# ",
+        "H#F"
     ],
     "key": {
         "#": {
             "item": "minecraft:stick"
         },
         "P": {
-            "item": "flametech:gold_plate"
+            "item": "flametech:diamond_plate"
         },
         "H": {
-            "tag": "c:hammer_1"
+            "tag": "c:hammer_2"
         },
         "I": {
-            "item": "minecraft:gold_ingot"
+            "item": "minecraft:diamond"
         },
         "F": {
-            "tag": "c:file_1"
+            "tag": "c:file_2"
         }
     },
     "result": {
-        "item": "minecraft:golden_pickaxe",
+        "item": "minecraft:diamond_axe",
         "count": 1
     }
 }

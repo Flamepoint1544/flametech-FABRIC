@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "PIP",
-        "F#H",
+        " P ",
+        "HIF",
         " # "
     ],
     "key": {
@@ -10,20 +10,20 @@
             "item": "minecraft:stick"
         },
         "P": {
-            "item": "flametech:gold_plate"
+            "item": "flametech:copper_plate"
         },
         "H": {
             "tag": "c:hammer_1"
         },
         "I": {
-            "item": "minecraft:gold_ingot"
+            "item": "minecraft:copper_ingot"
         },
         "F": {
             "tag": "c:file_1"
         }
     },
     "result": {
-        "item": "minecraft:golden_pickaxe",
+        "item": "beyond_bedrock:copper_sword",
         "count": 1
     }
 }
