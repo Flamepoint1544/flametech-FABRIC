@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+      "flametech:hammer_netherite",
       "flametech:hammer_ultimatium"
     ]
   }

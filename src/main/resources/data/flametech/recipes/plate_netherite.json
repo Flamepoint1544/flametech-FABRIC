@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#gg"
+    ],
+    "key": {
+        "#": {
+            "tag": "c:hammer_3"
+        },
+        "g": {
+            "item": "minecraft:netherite_ingot"
+        }
+    },
+    "result": {
+        "item": "flametech:netherite_plate",
+        "count": 1
+    }
+}

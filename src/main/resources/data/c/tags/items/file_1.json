@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
       "flametech:file_flint",
-      "flametech:file_gold"
+      "flametech:file_gold",
+      "#c:file_2"
     ]
   }

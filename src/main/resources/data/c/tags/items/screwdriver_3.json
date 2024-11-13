@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
       "flametech:screwdriver_diamond",
-      "flametech:screwdriver_netherite"
+      "flametech:screwdriver_netherite",
+      "#c:screwdriver_4"
     ]
   }

@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
       "flametech:file_diamond",
-      "flametech:file_netherite"
+      "flametech:file_netherite",
+      "#c:file_4"
     ]
   }

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#gg"
+    ],
+    "key": {
+        "#": {
+            "tag": "c:hammer_2"
+        },
+        "g": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "flametech:diamond_plate",
+        "count": 1
+    }
+}

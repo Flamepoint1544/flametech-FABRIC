@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
       "flametech:hammer_flint",
-      "flametech:hammer_gold"
+      "flametech:hammer_gold",
+      "#c:hammer_2"
     ]
   }

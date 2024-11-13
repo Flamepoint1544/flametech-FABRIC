@@ -8,7 +8,7 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.util.ActionResult;
 
 public class Saw extends AxeItem{
-    public Saw(ToolMaterial material, float attackDamage, float attackSpeed, Item.Settings settings, int maxDamage) {
+    public Saw(Item.Settings settings, ToolMaterial material, float attackDamage, float attackSpeed, int maxDamage) {
         super(material, attackDamage, attackDamage, settings.maxDamage(maxDamage));
     }
     

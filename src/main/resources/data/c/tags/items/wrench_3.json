@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
       "flametech:wrench_diamond",
-      "flametech:wrench_netherite"
+      "flametech:wrench_netherite",
+      "#c:wrench_4"
     ]
   }

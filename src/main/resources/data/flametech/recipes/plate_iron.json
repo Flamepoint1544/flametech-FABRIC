@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#gg"
+    ],
+    "key": {
+        "#": {
+            "tag": "c:hammer_1"
+        },
+        "g": {
+            "item": "minecraft:iron_ingot"
+        }
+    },
+    "result": {
+        "item": "flametech:iron_plate",
+        "count": 1
+    }
+}

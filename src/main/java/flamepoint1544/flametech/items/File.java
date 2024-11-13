@@ -1,11 +1,12 @@
 package flamepoint1544.flametech.items;
 
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ToolItem;
+import net.minecraft.item.ToolMaterial;
 
-public class File extends Item{
-    public File(Settings settings, int maxDamage) {
-        super(settings.maxDamage(maxDamage));
+public class File extends ToolItem{
+    public File(Settings settings, ToolMaterial material, int maxDamage) {
+        super(material, settings.maxDamage(maxDamage));
     }
     
     @Override

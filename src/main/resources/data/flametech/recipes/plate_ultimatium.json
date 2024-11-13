@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#gg"
+    ],
+    "key": {
+        "#": {
+            "tag": "c:hammer_4"
+        },
+        "g": {
+            "item": "beyond_bedrock:ultimatium"
+        }
+    },
+    "result": {
+        "item": "flametech:ultimatium_plate",
+        "count": 1
+    }
+}

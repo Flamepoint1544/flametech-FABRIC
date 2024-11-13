@@ -55,5 +55,12 @@
     "item.flametech.netherite_rod": "Netherite Rod",
     "item.flametech.ultimatium_rod": "Ultimatium Rod",
 
+    "item.flametech.copper_plate": "Copper Plate",
+    "item.flametech.gold_plate": "Gold Plate",
+    "item.flametech.iron_plate": "Iron Plate",
+    "item.flametech.diamond_plate": "Diamond Plate",
+    "item.flametech.netherite_plate": "Netherite Plate",
+    "item.flametech.ultimatium_plate": "Ultimatium Plate",
+
     "block.flametech.crushed_burnt_stone": "Crushed Burnt Stone"
 }

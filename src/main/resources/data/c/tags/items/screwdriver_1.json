@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
       "flametech:screwdriver_flint",
-      "flametech:screwdriver_gold"
+      "flametech:screwdriver_gold",
+      "#c:screwdriver_2"
     ]
   }

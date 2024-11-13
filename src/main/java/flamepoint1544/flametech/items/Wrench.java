@@ -9,9 +9,10 @@ import net.minecraft.block.enums.ChestType;
 import net.minecraft.block.enums.RailShape;
 import net.minecraft.block.enums.SlabType;
 import net.minecraft.block.enums.WallMountLocation;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemUsageContext;
+import net.minecraft.item.ToolItem;
+import net.minecraft.item.ToolMaterial;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.state.property.Properties;
 import net.minecraft.util.ActionResult;
@@ -19,9 +20,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
 
-public class Wrench extends Item{
-    public Wrench(Settings settings, int maxDamage) {
-        super(settings.maxDamage(maxDamage));
+public class Wrench extends ToolItem{
+    public Wrench(Settings settings, ToolMaterial material, int maxDamage) {
+        super(material, settings.maxDamage(maxDamage));
     }
     
     @Override

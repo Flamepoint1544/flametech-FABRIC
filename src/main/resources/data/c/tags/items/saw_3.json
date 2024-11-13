@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
       "flametech:saw_diamond",
-      "flametech:saw_netherite"
+      "flametech:saw_netherite",
+      "#c:saw_4"
     ]
   }

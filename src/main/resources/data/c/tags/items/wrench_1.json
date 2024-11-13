@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
       "flametech:wrench_flint",
-      "flametech:wrench_gold"
+      "flametech:wrench_gold",
+      "#c:wrench_2"
     ]
   }
