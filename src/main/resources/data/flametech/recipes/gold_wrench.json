@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PHP",
+        "P#P",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "flametech:gold_rod"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "item": "flametech:gold_plate"
+        },
+        "H": {
+            "tag": "c:hammer_1"
+        }
+    },
+    "result": {
+        "item": "flametech:file_gold",
+        "count": 1
+    }
+}

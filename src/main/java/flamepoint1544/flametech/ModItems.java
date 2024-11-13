@@ -8,6 +8,7 @@ import net.minecraft.item.*;
 import net.minecraft.registry.*;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 
 public class ModItems {
     // Items
@@ -69,13 +70,13 @@ public class ModItems {
     public static final Item PLATE_NETHERITE = register(new Item(new Item.Settings()), "netherite_plate");
 
     // Ultimatium
-    public static final Item SCREWDRIVER_ULTIMATIUM = register(new Screwdriver(new Item.Settings(), BBToolMaterials.ULTIMATIUM, 200), "screwdriver_ultimatium");
-    public static final Item SAW_ULTIMATIUM = register(new Saw(new Item.Settings(), BBToolMaterials.ULTIMATIUM, 3.0f, -3.2f, 200), "saw_ultimatium");
-    public static final Item FILE_ULTIMATIUM = register(new File(new Item.Settings(), BBToolMaterials.ULTIMATIUM, 200), "file_ultimatium");
-    public static final Item WRENCH_ULTIMATIUM = register(new Wrench(new Item.Settings(), BBToolMaterials.ULTIMATIUM, 200), "wrench_ultimatium");
-    public static final Item HAMMER_ULTIMATIUM = register(new Hammer(new Item.Settings(), BBToolMaterials.ULTIMATIUM, 1, 1, 200), "hammer_ultimatium");
-    public static final Item ROD_ULTIMATIUM = register(new Item(new Item.Settings()), "ultimatium_rod");
-    public static final Item PLATE_ULTIMATIUM = register(new Item(new Item.Settings()), "ultimatium_plate");
+    public static final Item SCREWDRIVER_ULTIMATIUM = register(new Screwdriver(new Item.Settings().rarity(Rarity.EPIC), BBToolMaterials.ULTIMATIUM, 200), "screwdriver_ultimatium");
+    public static final Item SAW_ULTIMATIUM = register(new Saw(new Item.Settings().rarity(Rarity.EPIC), BBToolMaterials.ULTIMATIUM, 3.0f, -3.2f, 200), "saw_ultimatium");
+    public static final Item FILE_ULTIMATIUM = register(new File(new Item.Settings().rarity(Rarity.EPIC), BBToolMaterials.ULTIMATIUM, 200), "file_ultimatium");
+    public static final Item WRENCH_ULTIMATIUM = register(new Wrench(new Item.Settings().rarity(Rarity.EPIC), BBToolMaterials.ULTIMATIUM, 200), "wrench_ultimatium");
+    public static final Item HAMMER_ULTIMATIUM = register(new Hammer(new Item.Settings().rarity(Rarity.EPIC), BBToolMaterials.ULTIMATIUM, 1, 1, 200), "hammer_ultimatium");
+    public static final Item ROD_ULTIMATIUM = register(new Item(new Item.Settings().rarity(Rarity.EPIC)), "ultimatium_rod");
+    public static final Item PLATE_ULTIMATIUM = register(new Item(new Item.Settings().rarity(Rarity.EPIC)), "ultimatium_plate");
 
     // Registry keys
     public static final RegistryKey<ItemGroup> PRIMARY_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(FlameTech.MOD_ID, "primary_item_group"));
