@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " P ",
-        "HIF",
+        "PI ",
+        "F#H",
         " # "
     ],
     "key": {
@@ -10,20 +10,20 @@
             "item": "minecraft:stick"
         },
         "P": {
-            "item": "flametech:diamond_plate"
+            "item": "flametech:iron_plate"
         },
         "H": {
-            "tag": "c:hammer_2"
+            "tag": "c:hammer_1"
         },
         "I": {
-            "item": "minecraft:diamond"
+            "item": "minecraft:iron_ingot"
         },
         "F": {
-            "tag": "c:file_2"
+            "tag": "c:file_1"
         }
     },
     "result": {
-        "item": "minecraft:diamond_sword",
+        "item": "minecraft:iron_hoe",
         "count": 1
     }
 }

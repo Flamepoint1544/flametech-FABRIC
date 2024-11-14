@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         " P ",
-        "HIF",
+        "F#H",
         " # "
     ],
     "key": {
@@ -10,20 +10,17 @@
             "item": "minecraft:stick"
         },
         "P": {
-            "item": "flametech:diamond_plate"
+            "item": "flametech:gold_plate"
         },
         "H": {
-            "tag": "c:hammer_2"
-        },
-        "I": {
-            "item": "minecraft:diamond"
+            "tag": "c:hammer_1"
         },
         "F": {
-            "tag": "c:file_2"
+            "tag": "c:file_1"
         }
     },
     "result": {
-        "item": "minecraft:diamond_sword",
+        "item": "minecraft:golden_shovel",
         "count": 1
     }
 }

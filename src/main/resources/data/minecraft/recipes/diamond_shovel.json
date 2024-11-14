@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         " P ",
-        "HIF",
+        "F#H",
         " # "
     ],
     "key": {
@@ -15,15 +15,12 @@
         "H": {
             "tag": "c:hammer_2"
         },
-        "I": {
-            "item": "minecraft:diamond"
-        },
         "F": {
             "tag": "c:file_2"
         }
     },
     "result": {
-        "item": "minecraft:diamond_sword",
+        "item": "minecraft:diamond_shovel",
         "count": 1
     }
 }

@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        " P ",
-        "HIF",
+        "PI ",
+        "F#H",
         " # "
     ],
     "key": {
@@ -10,20 +10,20 @@
             "item": "minecraft:stick"
         },
         "P": {
-            "item": "flametech:diamond_plate"
+            "item": "flametech:ultimatium_plate"
         },
         "H": {
-            "tag": "c:hammer_2"
+            "tag": "c:hammer_4"
         },
         "I": {
-            "item": "minecraft:diamond"
+            "item": "beyond_bedrock:ultimatium"
         },
         "F": {
-            "tag": "c:file_2"
+            "tag": "c:file_4"
         }
     },
     "result": {
-        "item": "minecraft:diamond_sword",
+        "item": "beyond_bedrock:ultimatium_hoe",
         "count": 1
     }
 }
